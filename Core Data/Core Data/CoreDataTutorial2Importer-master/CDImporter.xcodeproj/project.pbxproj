@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B1CAE1915356E9200C9A385 /* data.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4B1CAE13153569DA00C9A385 /* data.json */; };
+		4BB2F392153564EA00C4529C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BB2F391153564EA00C4529C /* CoreData.framework */; };
+		4BB2F394153564EA00C4529C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BB2F393153564EA00C4529C /* Foundation.framework */; };
+		4BB2F397153564EA00C4529C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BB2F396153564EA00C4529C /* main.m */; };
+		4BB2F39E153564EA00C4529C /* CDImporter.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4BB2F39D153564EA00C4529C /* CDImporter.1 */; };
+		4BB2F3A61535671400C4529C /* FailedBankCD.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4BB2F3A41535671400C4529C /* FailedBankCD.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4B1CAE1815356E8A00C9A385 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				4B1CAE1915356E9200C9A385 /* data.json in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BB2F38B153564EA00C4529C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				4BB2F39E153564EA00C4529C /* CDImporter.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4B1CAE13153569DA00C9A385 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		4BB2F38D153564EA00C4529C /* CDImporter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CDImporter; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BB2F391153564EA00C4529C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		4BB2F393153564EA00C4529C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4BB2F396153564EA00C4529C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4BB2F399153564EA00C4529C /* CDImporter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CDImporter-Prefix.pch"; sourceTree = "<group>"; };
+		4BB2F39D153564EA00C4529C /* CDImporter.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = CDImporter.1; sourceTree = "<group>"; };
+		4BB2F3A51535671400C4529C /* FailedBankCD.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FailedBankCD.xcdatamodel; sourceTree = "<group>"; };
+		4BB2F3A7153567E900C4529C /* FailedBankDetails.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FailedBankDetails.h; sourceTree = "<group>"; };
+		4BB2F3A8153567E900C4529C /* FailedBankDetails.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FailedBankDetails.m; sourceTree = "<group>"; };
+		4BB2F3A9153567E900C4529C /* FailedBankInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FailedBankInfo.h; sourceTree = "<group>"; };
+		4BB2F3AA153567E900C4529C /* FailedBankInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FailedBankInfo.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4BB2F38A153564EA00C4529C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BB2F392153564EA00C4529C /* CoreData.framework in Frameworks */,
+				4BB2F394153564EA00C4529C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4BB2F382153564EA00C4529C = {
+			isa = PBXGroup;
+			children = (
+				4BB2F395153564EA00C4529C /* CDImporter */,
+				4BB2F390153564EA00C4529C /* Frameworks */,
+				4BB2F38E153564EA00C4529C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4BB2F38E153564EA00C4529C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4BB2F38D153564EA00C4529C /* CDImporter */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4BB2F390153564EA00C4529C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4BB2F391153564EA00C4529C /* CoreData.framework */,
+				4BB2F393153564EA00C4529C /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4BB2F395153564EA00C4529C /* CDImporter */ = {
+			isa = PBXGroup;
+			children = (
+				4BB2F396153564EA00C4529C /* main.m */,
+				4BB2F39D153564EA00C4529C /* CDImporter.1 */,
+				4BB2F3A41535671400C4529C /* FailedBankCD.xcdatamodeld */,
+				4BB2F3A7153567E900C4529C /* FailedBankDetails.h */,
+				4BB2F3A8153567E900C4529C /* FailedBankDetails.m */,
+				4BB2F3A9153567E900C4529C /* FailedBankInfo.h */,
+				4BB2F3AA153567E900C4529C /* FailedBankInfo.m */,
+				4BB2F398153564EA00C4529C /* Supporting Files */,
+				4B1CAE13153569DA00C9A385 /* data.json */,
+			);
+			path = CDImporter;
+			sourceTree = "<group>";
+		};
+		4BB2F398153564EA00C4529C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4BB2F399153564EA00C4529C /* CDImporter-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4BB2F38C153564EA00C4529C /* CDImporter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BB2F3A1153564EA00C4529C /* Build configuration list for PBXNativeTarget "CDImporter" */;
+			buildPhases = (
+				4BB2F389153564EA00C4529C /* Sources */,
+				4BB2F38A153564EA00C4529C /* Frameworks */,
+				4BB2F38B153564EA00C4529C /* CopyFiles */,
+				4B1CAE1815356E8A00C9A385 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CDImporter;
+			productName = CDImporter;
+			productReference = 4BB2F38D153564EA00C4529C /* CDImporter */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4BB2F384153564EA00C4529C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Adam Burkepile";
+			};
+			buildConfigurationList = 4BB2F387153564EA00C4529C /* Build configuration list for PBXProject "CDImporter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4BB2F382153564EA00C4529C;
+			productRefGroup = 4BB2F38E153564EA00C4529C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4BB2F38C153564EA00C4529C /* CDImporter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4BB2F389153564EA00C4529C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BB2F397153564EA00C4529C /* main.m in Sources */,
+				4BB2F3A61535671400C4529C /* FailedBankCD.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4BB2F39F153564EA00C4529C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4BB2F3A0153564EA00C4529C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4BB2F3A2153564EA00C4529C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CDImporter/CDImporter-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4BB2F3A3153564EA00C4529C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CDImporter/CDImporter-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4BB2F387153564EA00C4529C /* Build configuration list for PBXProject "CDImporter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BB2F39F153564EA00C4529C /* Debug */,
+				4BB2F3A0153564EA00C4529C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BB2F3A1153564EA00C4529C /* Build configuration list for PBXNativeTarget "CDImporter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BB2F3A2153564EA00C4529C /* Debug */,
+				4BB2F3A3153564EA00C4529C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4BB2F3A41535671400C4529C /* FailedBankCD.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4BB2F3A51535671400C4529C /* FailedBankCD.xcdatamodel */,
+			);
+			currentVersion = 4BB2F3A51535671400C4529C /* FailedBankCD.xcdatamodel */;
+			path = FailedBankCD.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4BB2F384153564EA00C4529C /* Project object */;
+}
